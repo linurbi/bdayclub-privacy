@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="מדיניות הפרטיות של אפליקציית B-Day Club: איזה מידע נשמר במכשיר, איזה מידע נשלח, שמירה, מחיקה ויצירת קשר.">
+  <title>מדיניות פרטיות | B-Day Club</title>
+  <style>
+    :root {
+      --text: #2b1a22;
+      --muted: #5e4a54;
+      --accent: #8a1c47;
+      --bg: #fff7fa;
+      --surface: #ffffff;
+      --border: #ead7df;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", "Arial Hebrew", "Noto Sans Hebrew", Arial, Helvetica, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.75;
+      text-align: right;
+    }
+    .skip {
+      position: absolute;
+      inset-inline-start: 1rem;
+      top: -3rem;
+      background: var(--accent);
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: .5rem;
+    }
+    .skip:focus { top: 1rem; }
+    header, main, footer { width: min(100% - 2rem, 46rem); margin-inline: auto; }
+    header { padding: 2.5rem 0 1rem; }
+    .brand { color: var(--accent); font-weight: 700; letter-spacing: .04em; margin: 0; }
+    h1 { font-size: clamp(1.75rem, 5vw, 2.25rem); line-height: 1.3; margin: .25rem 0 .5rem; }
+    h2 { font-size: 1.3rem; line-height: 1.4; margin: 2.25rem 0 .5rem; color: var(--accent); }
+    h3 { font-size: 1.1rem; margin: 1.25rem 0 .25rem; }
+    p, li { margin: .5rem 0; }
+    ul { padding-inline-start: 1.5rem; margin: .5rem 0; }
+    .meta { color: var(--muted); margin: 0; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+    }
+    nav ol { padding-inline-start: 1.5rem; columns: 2 14rem; column-gap: 2rem; margin: .5rem 0; }
+    a { color: var(--accent); text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: .25rem; }
+    .ltr { direction: ltr; unicode-bidi: isolate; display: inline-block; }
+    table { width: 100%; border-collapse: collapse; margin: .75rem 0; font-size: 1rem; }
+    th, td { border: 1px solid var(--border); padding: .5rem .65rem; vertical-align: top; text-align: right; }
+    th { background: #fbeef3; }
+    .table-wrap { overflow-x: auto; }
+    footer { color: var(--muted); padding: 2rem 0 3rem; border-top: 1px solid var(--border); margin-top: 2.5rem; font-size: .95rem; }
+    @media (max-width: 30rem) {
+      body { font-size: 1rem; }
+      header { padding-top: 1.5rem; }
+      .card { padding: .85rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">דילוג לתוכן</a>
+
+  <header>
+    <p class="brand">B-DAY CLUB</p>
+    <h1>מדיניות פרטיות</h1>
+    <p class="meta">תאריך תחילה: 1 בנובמבר 2026</p>
+    <p class="meta">עדכון אחרון: 1 בנובמבר 2026</p>
+  </header>
+
+  <main id="content">
+    <section aria-labelledby="intro">
+      <h2 id="intro">1. מי אנחנו ועל מה חלה המדיניות</h2>
+      <p>
+        מדיניות זו מסבירה איך אפליקציית B-Day Club (״האפליקציה״) מטפלת במידע. האפליקציה מרכזת הטבות יום הולדת של מועדוני לקוחות ומותגים בישראל.
+        האפליקציה מפותחת ומופעלת באופן עצמאי על ידי <span class="ltr">Linur Serero Dar</span> (״אנחנו״).
+      </p>
+      <p>המדיניות חלה על האפליקציה לאנדרואיד ועל דף זה. היא אינה חלה על אתרים של מועדונים ומותגים שאליהם האפליקציה מקשרת.</p>
+    </section>
+
+    <section aria-labelledby="summary" class="card">
+      <h2 id="summary" style="margin-top:.25rem">בקצרה</h2>
+      <ul>
+        <li>יום ההולדת, המותגים, החברות במועדונים וסימוני המימוש נשמרים <strong>רק במכשיר</strong> ואינם נשלחים אלינו. שם תצוגה, אם הוזן, נשמר שם גם הוא.</li>
+        <li>אין חשבון משתמש ואין התחברות. הפרופיל אינו מסונכרן לענן.</li>
+        <li>רשימת ההטבות נטענת מ-Supabase, בלי פרטי הפרופיל. אם השרת אינו זמין, מוצגת הרשימה שצורפה לאפליקציה.</li>
+        <li>אין באפליקציה פרסומות, ניתוח התנהגות (Analytics) או כלי דיווח קריסות של צד שלישי.</li>
+        <li>הצעה או דיווח נשלחים לשרת רק אם תבחרו בכך, ורק התוכן שהקלדתם.</li>
+        <li>אפשר למחוק את כל הנתונים המקומיים מתוך מסך ההגדרות.</li>
+      </ul>
+    </section>
+
+    <nav aria-labelledby="toc">
+      <h2 id="toc">תוכן העניינים</h2>
+      <ol>
+        <li><a href="#local">מידע שנשמר במכשיר</a></li>
+        <li><a href="#sent">מידע שנשלח מהאפליקציה</a></li>
+        <li><a href="#reports">הצעות ודיווחים</a></li>
+        <li><a href="#not">מה האפליקציה אינה עושה</a></li>
+        <li><a href="#providers">ספקי שירות</a></li>
+        <li><a href="#retention">שמירת מידע</a></li>
+        <li><a href="#delete">מחיקת מידע</a></li>
+        <li><a href="#security">אבטחת מידע</a></li>
+        <li><a href="#children">ילדים</a></li>
+        <li><a href="#rights">הזכויות שלכם</a></li>
+        <li><a href="#changes">שינויים במדיניות</a></li>
+        <li><a href="#contact">יצירת קשר</a></li>
+      </ol>
+    </nav>
+
+    <section aria-labelledby="local">
+      <h2 id="local">2. מידע שנשמר במכשיר שלכם בלבד</h2>
+      <p>כדי להציג לכם את ההטבות הרלוונטיות, האפליקציה שומרת את המידע הבא באחסון של האפליקציה במכשיר:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">מידע</th><th scope="col">למה הוא משמש</th></tr></thead>
+          <tbody>
+            <tr><td>שם תצוגה (רשות)</td><td>פנייה אישית במסכי האפליקציה</td></tr>
+            <tr><td>יום וחודש הלידה, ושנת לידה (רשות)</td><td>חישוב מועד ההטבות; השנה משמשת רק להצגת הגיל הקרוב</td></tr>
+            <tr><td>המותגים שבחרתם</td><td>סינון ההטבות למותגים שמעניינים אתכם</td></tr>
+            <tr><td>חברות במועדונים שאישרתם, כולל התשובה לשאלה על מועדון DREAM CARD</td><td>הצגת הטבות שמותנות בחברות, רק לפי מה שאישרתם</td></tr>
+            <tr><td>סימוני מימוש של הטבות</td><td>מעקב אישי אחרי הטבות שכבר מימשתם</td></tr>
+            <tr><td>העדפות (למשל תזכורת והצגת הטבות הדגמה) ותאריכי עדכון</td><td>שמירת ההגדרות שלכם</td></tr>
+            <tr><td>הצעות ודיווחים שממתינים לשליחה</td><td>שליחה חוזרת כשאין חיבור לאינטרנט</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>מידע זה אינו נשלח אלינו ואינו מועבר לאף צד שלישי על ידי האפליקציה. הוא אינו מוצפן על ידי האפליקציה עצמה, ומוגן במנגנוני האבטחה של מערכת ההפעלה במכשיר.</p>
+      <p>
+        האפליקציה מוגדרת כך שנתוניה לא ייכללו בגיבוי האוטומטי של Android ל-Google Drive, ולא יועברו בהעברה בין מכשירים.
+        הכללים חלים גם על גיבוי הענן וגם על ההעברה בין מכשירים, כולל במכשירים שבהם כיבוי הגיבוי לבדו אינו עוצר העברה.
+        גיבוי שנוצר מגרסה קודמת, אם נשמר בחשבון Google, אינו נמחק על ידי האפליקציה. אפשר לנהל אותו בהגדרות המכשיר או בחשבון Google.
+      </p>
+    </section>
+
+    <section aria-labelledby="sent">
+      <h2 id="sent">3. מידע שנשלח מהאפליקציה</h2>
+      <h3>טעינת רשימת המועדונים וההטבות</h3>
+      <p>
+        האפליקציה מורידה את רשימת המועדונים וההטבות שפורסמו משרת המופעל באמצעות Supabase. הבקשה כוללת רק פרטים טכניים של רשימת ההטבות המבוקשת.
+        היא אינה כוללת את הפרופיל, יום ההולדת, המותגים, החברות במועדונים או סימוני המימוש שלכם.
+        כמו בכל תקשורת באינטרנט, ספק השירות מקבל את כתובת ה-IP של המכשיר ונתוני בקשה טכניים.
+        אם השרת אינו זמין, האפליקציה מציגה את רשימת ההטבות שצורפה אליה, וגם אז לא נשלחים פרטי הפרופיל.
+      </p>
+      <h3>הצעות ודיווחים</h3>
+      <p>מידע על הצעות ודיווחים שאתם בוחרים לשלוח מפורט בסעיף הבא.</p>
+    </section>
+
+    <section aria-labelledby="reports">
+      <h2 id="reports">4. הצעות ודיווחים שאתם בוחרים לשלוח</h2>
+      <p>אפשר להציע מועדון חסר או לדווח על מידע שגוי בהטבה. השליחה היא בחירה שלכם. כשאתם שולחים, נשלח רק מה שמילאתם:</p>
+      <ul>
+        <li>הצעת מועדון: שם המועדון או הרשת, קישור (רשות) והערות (רשות).</li>
+        <li>דיווח על הטבה: תיאור הבעיה, קישור למקור (רשות), וזיהוי ההטבה והמועדון שעליהם מדווח.</li>
+      </ul>
+      <p>
+        הדיווח נשמר במאגר בדיקה פנימי ומשמש רק כדי לבדוק ולעדכן את מידע ההטבות. הוא אינו מוצג באפליקציה ואינו משויך לפרופיל שלכם.
+        האפליקציה אינה מצרפת לדיווח שם משתמש, יום הולדת, מזהה מכשיר או פרטי קשר, ולכן הדיווחים אנונימיים.
+      </p>
+      <p><strong>אנא אל תכללו בדיווח פרטים אישיים</strong>, כמו מספר טלפון, כתובת דוא״ל, מספר חבר במועדון או צילומי מסך של חשבונות.</p>
+      <p>אם אין חיבור לאינטרנט, הדיווח נשמר זמנית במכשיר ונשלח כשהחיבור חוזר. כשהאפליקציה מוגדרת עם חיבור ל-Supabase, הדיווח נשלח לשם. בלי החיבור הזה הדיווח נשאר במכשיר.</p>
+    </section>
+
+    <section aria-labelledby="not">
+      <h2 id="not">5. מה האפליקציה אינה עושה</h2>
+      <ul>
+        <li>אין חשבון משתמש ואין התחברות. הפרופיל אינו מסונכרן לענן. רשימת ההטבות נטענת מ-Supabase.</li>
+        <li>אין פרסומות ואין שימוש במזהה פרסום.</li>
+        <li>אין כלי ניתוח התנהגות (Analytics) ואין כלי דיווח קריסות של צד שלישי.</li>
+        <li>איננו מוכרים מידע ואיננו משתפים אותו לצורכי פרסום.</li>
+        <li>האפליקציה אינה מבקשת פרטים על ילדים, גם כשמוצגות הטבות לילדים הרשומים במועדון.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="providers">
+      <h2 id="providers">6. ספקי שירות</h2>
+      <ul>
+        <li><strong>Supabase</strong> — אחסון רשימת ההטבות והדיווחים שנשלחו, והפעלת השרת. Supabase מעבדת את המידע עבורנו באזור האחסון של הפרויקט.
+          <a href="https://supabase.com/privacy" hreflang="en">מדיניות הפרטיות של Supabase</a>.</li>
+        <li><strong>GitHub Pages</strong> — אירוח דף זה. לפי GitHub, כתובת ה-IP של מבקרים בדף נרשמת למטרות אבטחה.
+          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" hreflang="en">הצהרת הפרטיות של GitHub</a>.</li>
+        <li><strong>Google Play</strong> — הפצת האפליקציה. Google מטפלת במידע בהתאם למדיניות שלה.</li>
+      </ul>
+      <p>כשאתם פותחים קישור לאתר רשמי של מועדון או מותג, האתר נפתח בדפדפן ומטפל במידע לפי המדיניות שלו.</p>
+    </section>
+
+    <section aria-labelledby="retention">
+      <h2 id="retention">7. שמירת מידע</h2>
+      <ul>
+        <li><strong>מידע במכשיר</strong> נשמר עד שתמחקו אותו מתוך האפליקציה או תסירו את האפליקציה.</li>
+        <li><strong>דיווחים שנשלחו</strong> נשמרים לצורך הטיפול בהם עד למחיקה לפי בקשה (סעיף 8). מחיקה אוטומטית אינה פעילה.</li>
+        <li><strong>גיבויים</strong> — אם ספק השירות שומר עותק גיבוי, מידע שנמחק עשוי להישאר בו עד שתוקף הגיבוי פג.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="delete">
+      <h2 id="delete">8. מחיקת מידע</h2>
+      <h3>מחיקת המידע במכשיר</h3>
+      <p>
+        במסך <strong>הגדרות ← פרטיות ונתונים ← מחיקת הפרופיל המקומי</strong> אפשר למחוק את כל המידע שנשמר במכשיר:
+        הפרופיל, יום ההולדת, המותגים, החברות במועדונים, סימוני המימוש, ההעדפות ודיווחים שעדיין ממתינים לשליחה. הסרת האפליקציה מוחקת גם היא את המידע הזה.
+      </p>
+      <p><strong>חשוב:</strong> המחיקה במכשיר אינה מוחקת דיווחים שכבר נשלחו. היא גם אינה מוחקת גיבוי Android שנוצר לפני שהגיבוי כובה, אם נשמר כזה בחשבון Google.</p>
+      <h3>בקשה למחיקת דיווח שכבר נשלח</h3>
+      <p>
+        אפשר לבקש מחיקה בדוא״ל <a href="mailto:linurbi@gmail.com"><span class="ltr">linurbi@gmail.com</span></a>. כדי שנוכל למצוא את הדיווח, ציינו:
+        תאריך משוער של השליחה, סוג הדיווח (הצעת מועדון או דיווח על הטבה), ושם המועדון, הקישור או נוסח ההודעה כפי שכתבתם.
+      </p>
+      <p>
+        מאחר שהדיווחים אנונימיים, נוכל למחוק דיווח רק אם נאתר אותו בוודאות. אם לא נצליח, נודיע לכם שהדיווח לא אותר ולא נמחק.
+        לא נבקש מכם מסמכי זיהוי או מידע אישי נוסף לצורך זה.
+      </p>
+    </section>
+
+    <section aria-labelledby="security">
+      <h2 id="security">9. אבטחת מידע</h2>
+      <ul>
+        <li>התקשורת בין האפליקציה לשרת מוצפנת בפרוטוקול HTTPS.</li>
+        <li>האפליקציה יכולה רק לקרוא הטבות שפורסמו ולשלוח דיווחים. היא אינה יכולה לקרוא דיווחים, כולל דיווחים שהיא עצמה שלחה.</li>
+        <li>הגישה למאגר הדיווחים מוגבלת לצד השרת בלבד.</li>
+        <li>המידע במכשיר אינו מוצפן על ידי האפליקציה ומוגן במנגנוני האבטחה של המכשיר. מומלץ לנעול את המכשיר בסיסמה.</li>
+      </ul>
+      <p>אף מערכת אינה מאובטחת לחלוטין, אך אנו פועלים לצמצם את המידע שנאסף ולהגן עליו.</p>
+    </section>
+
+    <section aria-labelledby="children">
+      <h2 id="children">10. ילדים</h2>
+      <p>
+        איננו אוספים ביודעין מידע מילדים. האפליקציה אינה מבקשת פרטים על ילדים, והטבות לילדים הרשומים במועדון מוצגות כמידע כללי בלבד.
+      </p>
+    </section>
+
+    <section aria-labelledby="rights">
+      <h2 id="rights">11. הזכויות שלכם</h2>
+      <p>
+        המידע במכשיר נמצא בשליטתכם: אפשר לעיין בו, לעדכן אותו ולמחוק אותו בכל עת מתוך האפליקציה.
+        בהתאם לדין החל, ייתכן שעומדות לכם זכויות נוספות לגבי מידע שנשלח אלינו, כמו עיון, תיקון או מחיקה. לפניות כתבו אלינו לכתובת שבסעיף יצירת הקשר.
+      </p>
+    </section>
+
+    <section aria-labelledby="changes">
+      <h2 id="changes">12. שינויים במדיניות</h2>
+      <p>
+        אנו עשויים לעדכן מדיניות זו, למשל כשנוסיף תכונה או נשנה את אופן הטיפול במידע. הגרסה המעודכנת תפורסם בדף זה עם תאריך העדכון.
+        שינוי מהותי יובא לידיעתכם גם באפליקציה או בעמוד האפליקציה ב-Google Play.
+      </p>
+    </section>
+
+    <section aria-labelledby="contact" class="card">
+      <h2 id="contact" style="margin-top:.25rem">13. יצירת קשר</h2>
+      <p>לשאלות על פרטיות ולבקשות מחיקה: <a href="mailto:linurbi@gmail.com"><span class="ltr">linurbi@gmail.com</span></a></p>
+      <p>הגורם המפעיל: <span class="ltr">Linur Serero Dar</span> (פיתוח עצמאי)</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© B-Day Club. דף זה אינו משתמש בעוגיות, בכלי מעקב או בגופנים חיצוניים.</p>
+  </footer>
+</body>
+</html>
