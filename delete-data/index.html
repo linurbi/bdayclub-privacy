@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="איך למחוק את הפרופיל המקומי באפליקציית B-Day Club, ואיך לבקש מחיקה של דיווח או הצעת מועדון שכבר נשלחו.">
+  <title>מחיקת נתונים | B-Day Club</title>
+  <style>
+    :root {
+      --text: #2b1a22;
+      --muted: #5e4a54;
+      --accent: #8a1c47;
+      --bg: #fff7fa;
+      --surface: #ffffff;
+      --border: #ead7df;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", "Arial Hebrew", "Noto Sans Hebrew", Arial, Helvetica, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.75;
+      text-align: right;
+    }
+    .skip {
+      position: absolute;
+      inset-inline-start: 1rem;
+      top: -3rem;
+      background: var(--accent);
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: .5rem;
+    }
+    .skip:focus { top: 1rem; }
+    header, main, footer { width: min(100% - 2rem, 46rem); margin-inline: auto; }
+    header { padding: 2.5rem 0 1rem; }
+    .brand { color: var(--accent); font-weight: 700; letter-spacing: .04em; margin: 0; }
+    h1 { font-size: clamp(1.75rem, 5vw, 2.25rem); line-height: 1.3; margin: .25rem 0 .5rem; }
+    h2 { font-size: 1.3rem; line-height: 1.4; margin: 2.25rem 0 .5rem; color: var(--accent); }
+    h3 { font-size: 1.1rem; margin: 1.25rem 0 .25rem; }
+    p, li { margin: .5rem 0; }
+    ul { padding-inline-start: 1.5rem; margin: .5rem 0; }
+    .meta { color: var(--muted); margin: 0; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+    }
+    a { color: var(--accent); text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: .25rem; }
+    .ltr { direction: ltr; unicode-bidi: isolate; display: inline-block; }
+    footer { color: var(--muted); padding: 2rem 0 3rem; border-top: 1px solid var(--border); margin-top: 2.5rem; font-size: .95rem; }
+    @media (max-width: 30rem) {
+      body { font-size: 1rem; }
+      header { padding-top: 1.5rem; }
+      .card { padding: .85rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">דילוג לתוכן</a>
+
+  <header>
+    <p class="brand">B-DAY CLUB</p>
+    <h1>מחיקת נתונים</h1>
+    <p class="meta">אפליקציית B-Day Club לאנדרואיד</p>
+    <p class="meta">עדכון אחרון: 8 בנובמבר 2026</p>
+  </header>
+
+  <main id="content">
+    <section aria-labelledby="intro">
+      <h2 id="intro">על הדף הזה</h2>
+      <p>
+        הדף מסביר איך למחוק מידע שקשור לאפליקציית B-Day Club.
+        האפליקציה מרכזת הטבות יום הולדת של מועדוני לקוחות ומותגים בישראל, והיא מופעלת על ידי <span class="ltr">Linur Serero Dar</span>.
+      </p>
+      <p>
+        אין באפליקציה חשבון משתמש ואין התחברות. אין בדף זה טופס מחיקה.
+        פרטים נוספים נמצאים ב<a href="../privacy/">מדיניות הפרטיות</a>.
+      </p>
+    </section>
+
+    <section aria-labelledby="local" class="card">
+      <h2 id="local" style="margin-top:.25rem">מחיקת הפרופיל במכשיר</h2>
+      <p>את הנתונים שנשמרים רק במכשיר מוחקים מתוך האפליקציה:</p>
+      <ol>
+        <li>פתחו את B-Day Club.</li>
+        <li>עברו למסך <strong>הגדרות</strong>.</li>
+        <li>בחרו <strong>פרטיות ונתונים</strong>.</li>
+        <li>בחרו <strong>מחיקת הפרופיל המקומי</strong> ואשרו.</li>
+      </ol>
+      <p>הפעולה מוחקת מהמכשיר את:</p>
+      <ul>
+        <li>שם התצוגה, יום ההולדת ושנת הלידה אם הוזנה</li>
+        <li>המותגים שנבחרו ואת החברות במועדונים, כולל התשובה על מועדון DREAM CARD</li>
+        <li>סימוני מימוש של הטבות</li>
+        <li>העדפות, למשל תזכורת והצגת הטבות הדגמה</li>
+        <li>הצעות ודיווחים שעדיין ממתינים לשליחה ולא נשלחו</li>
+      </ul>
+      <p>הסרת האפליקציה מהמכשיר מוחקת גם היא את נתוני האפליקציה שנשמרו במכשיר, כולל מזהה ההתקנה האקראי.</p>
+    </section>
+
+    <section aria-labelledby="request">
+      <h2 id="request">בקשה למחיקת דיווח או הצעת מועדון שכבר נשלחו</h2>
+      <p>
+        דיווח על הטבה או הצעת מועדון שכבר נשלחו לשרת אינם נמחקים במחיקת הפרופיל המקומי.
+        אפשר לבקש את מחיקתם בדוא״ל <a href="mailto:linurbi@gmail.com"><span class="ltr">linurbi@gmail.com</span></a>.
+      </p>
+      <p>כדי שנוכל לחפש את הרשומה, כתבו את:</p>
+      <ul>
+        <li>התאריך המשוער של השליחה</li>
+        <li>סוג הפנייה: הצעת מועדון או דיווח על הטבה</li>
+        <li>שם המועדון, הקישור, או נוסח ההודעה כפי שכתבתם</li>
+      </ul>
+      <p>
+        הדיווחים אינם משויכים לחשבון או לשם. נמחק רשומה רק אם נאתר אותה בוודאות לפי הפרטים ששלחתם.
+        אם לא נאתר אותה, נשיב שהיא לא נמצאה ולא נמחקה.
+        לא נבקש מסמכי זיהוי או מידע אישי נוסף. אין בדף זה התחייבות למועד סיום הטיפול.
+      </p>
+    </section>
+
+    <section aria-labelledby="kept">
+      <h2 id="kept">מה נמחק ומה עשוי להישאר</h2>
+      <h3>אפשר למחוק</h3>
+      <ul>
+        <li>הנתונים המקומיים שמפורטים למעלה, באמצעות מחיקת הפרופיל או הסרת האפליקציה.</li>
+        <li>דיווח על הטבה או הצעת מועדון שכבר נשלחו, אם נאתר את הרשומה לפי בקשת הדוא״ל.</li>
+      </ul>
+      <h3>עשוי להישאר</h3>
+      <ul>
+        <li>מחיקת הפרופיל במכשיר אינה מוחקת דיווח או הצעה שכבר נשלחו. מחיקה אוטומטית של דיווחים שנשלחו אינה פעילה.</li>
+        <li>מזהה ההתקנה האקראי נשאר במכשיר אחרי מחיקת הפרופיל, עד להסרת האפליקציה.</li>
+        <li>
+          להגבלת קצב השליחה השרת שומר גיבוב מומלח של כתובת ה-IP וגיבוב מומלח של מזהה ההתקנה, ולא את כתובת ה-IP עצמה ולא את המזהה המקורי.
+          הגיבובים נשמרים לצורך הגבלת קצב השליחה במשך יומיים. רשומה שפג תוקפה נמחקת בפעולת ניקוי שמבוצעת בעת פעולת הגבלת קצב מאוחרת יותר, ולא במשימה מתוזמנת. לכן המחיקה עשויה להתרחש אחרי יומיים.
+          אי אפשר לשייך גיבוב כזה לבקשת דוא״ל, ולכן אין מחיקה נפרדת שלו לפי פנייה.
+        </li>
+        <li>אם ספק השירות שומר עותק גיבוי, מידע שנמחק עשוי להישאר בו עד שתוקף הגיבוי פג.</li>
+        <li>גיבוי Android שנוצר לפני שהגיבוי של האפליקציה כובה, אם נשמר בחשבון Google, אינו נמחק על ידי האפליקציה.</li>
+        <li>רשימת ההטבות שפורסמה אינה מידע אישי של המשתמש ואינה נמחקת בבקשה זו.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact" class="card">
+      <h2 id="contact" style="margin-top:.25rem">יצירת קשר</h2>
+      <p>לבקשת מחיקה של דיווח או הצעת מועדון שכבר נשלחו: <a href="mailto:linurbi@gmail.com"><span class="ltr">linurbi@gmail.com</span></a></p>
+      <p>הגורם המפעיל: <span class="ltr">Linur Serero Dar</span> (פיתוח עצמאי)</p>
+      <p><a href="../privacy/">מדיניות הפרטיות של B-Day Club</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© B-Day Club. דף זה אינו משתמש בעוגיות, בכלי מעקב או בגופנים חיצוניים.</p>
+  </footer>
+</body>
+</html>
